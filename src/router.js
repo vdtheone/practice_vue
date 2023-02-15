@@ -6,6 +6,9 @@ import sanjay from "./components/sanjay.vue";
 import jash from "./components/jash.vue";
 import saakshi from "./components/saakshi.vue";
 import calculator from "./components/calculator.vue";
+import global_registration from "./components/global_registration.vue";
+import store_test_component from "./components/store_test_component.vue";
+import ComponentComposition from "./components/ComponentComposition.vue";
 
 const routes = [
   {
@@ -38,6 +41,20 @@ const routes = [
     path: "/calculator",
     component: calculator,
   },
+  {
+    path: "/global_registration",
+    component: global_registration,
+  },
+  {
+    path: "/store",
+    component: store_test_component,
+  },
+  {
+    path: "/composition",
+    component: ComponentComposition,
+  },
+  
+  
 ];
 
 const router = createRouter({

@@ -1,4 +1,8 @@
 <template lang="">
+
+    <!-- Global Registration component -->
+        <global_registration/>
+
     <div class="container mx-auto">
         <div class="grid grid-col-1 ">
             <div class="max-w-full m-1 text-center bg-gray-200">

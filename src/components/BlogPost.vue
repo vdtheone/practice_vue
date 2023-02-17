@@ -1,7 +1,7 @@
 <template lang="">
 <div class="bg">
     {{ value}}
-]</div>
+</div>
 </template>
 
 <script setup>
